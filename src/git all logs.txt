@@ -1,0 +1,10 @@
+# initialise the app using npx create react-app redux-template
+
+# clean the data remove all the unnecceasary file or remove predefined boiler plate code form the app
+
+# change the feature section in App some minor change rename the file to appSlice change from counter slice 
+
+# Add a new file called firebase.js add firebsae to the project 
+
+# Add all the configuration of firebase js  in the app for successfull login the App
+
