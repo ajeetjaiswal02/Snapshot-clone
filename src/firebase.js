@@ -12,3 +12,9 @@ const firebaseConfig = {
 
 
 const firebaseapp = firebase.intializeApp(firebaseConfig);
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
+const storage = firebase.storage();
+const provider = new firebase.auth.GoggleAuthProvider();
+
+export {db, auth, storage, provider };
