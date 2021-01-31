@@ -8,3 +8,10 @@
 
 # Add all the configuration of firebase js  in the app for successfull login the App
 
+# Add a Web-camp react react liabarie 
+
+# Add a Webcam.js file to select the size of camera layout and width and breadth
+
+# initialse al the files in features and store for redux helping so that when ever we click to capture the button we 
+will use this image for all the componebt ogf our project
+
