@@ -21,4 +21,11 @@ will use this image for all the componebt ogf our project
 
 # instialise router command in the project of main file and create a proeivew page 
 
+# using history command to to routes the files to preview section
+ 
+# Add Change in Css files 
+
+# Add initaial layout of all the css files
+
+
 
