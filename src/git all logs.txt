@@ -15,3 +15,10 @@
 # initialse al the files in features and store for redux helping so that when ever we click to capture the button we 
 will use this image for all the componebt ogf our project
 
+# install react router dependencie in to the project 
+
+# make change in webcamp cpature slice js file fo r using usedispacth method in the prject 
+
+# instialise router command in the project of main file and create a proeivew page 
+
+
