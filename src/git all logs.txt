@@ -27,5 +27,16 @@ will use this image for all the componebt ogf our project
 
 # Add initaial layout of all the css files
 
+# Add preview section snapshot of image when we click on the buttton and render it in preview routes 
+
+# using dispatch and history to redirect the preview back to root user beacuse in the preview section if we prsent in it there          
+
+# initalise a new install close icon from material ui 
+
+# by using usedispatch give the onClick maethos of Close materialicon to reset the image to null
+- by using these the page will redirect us to root page beacause of present of close icon
+
+# add all the fake icon on the preview section from materialui
+
 
 
