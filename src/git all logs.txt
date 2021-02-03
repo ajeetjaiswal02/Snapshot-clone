@@ -38,5 +38,9 @@ will use this image for all the componebt ogf our project
 
 # add all the fake icon on the preview section from materialui
 
+# customise the css file for preview page and icons 
 
+# Add Send ison h1 tag and icons 
+
+# we use this send icon fucntion to send the image get back to the firebase store so that it can be save in firebase firestore 
 
