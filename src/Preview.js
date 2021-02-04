@@ -15,8 +15,7 @@ import CropIcon from "@material-ui/icons/Crop";
 import TimerIcon from "@material-ui/icons/Timer";
 import SendIcon from "@material-ui/icons/Send"
 import { v4 as uuid } from "uuid";
-import { db, storage } from "./firebase";
-
+import { db , storage } from "./firebase";
 import firebase from 'firebase';
 
 
@@ -47,7 +46,8 @@ function Preview() {
             (error) =>{
             // ERROR function
             console.log(error)
-        }, () => {
+        }, 
+        () => {
             // COMPlete function
             storage
               .ref("posts")
@@ -61,8 +61,8 @@ function Preview() {
                       // Profile pic
                       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
                   });
-                  history.replace("/chats")
-              })
+                  history.replace('/chats');
+              });
         })
     }
 
@@ -81,8 +81,8 @@ function Preview() {
                 <TimerIcon />
             </div>
             <img src={cameraImage} alt="" />
-            <div onClick={sendPost} className="preview_footer">
-                <h2>Send Now</h2>
+            <div className="preview_footer">
+                <h2 onClick={sendPost}>Send Now</h2>
                 <SendIcon fontSize="small" className="preview_sendIcon" />
             </div>
         </div>

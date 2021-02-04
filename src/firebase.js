@@ -1,6 +1,5 @@
 import firebase from 'firebase';
 
-
 const firebaseConfig = {
     apiKey: "AIzaSyDJKTZ2Tl2JyOpcO7gbrRfM52zpwh5q4q0",
     authDomain: "snapshot-clone-4913c.firebaseapp.com",
@@ -11,10 +10,10 @@ const firebaseConfig = {
 };
 
 
-const firebaseapp = firebase.intializeApp(firebaseConfig);
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
 const storage = firebase.storage();
-const provider = new firebase.auth.GoggleAuthProvider();
+const provider = new firebase.auth.GoogleAuthProvider();
 
 export {db, auth, storage, provider };
