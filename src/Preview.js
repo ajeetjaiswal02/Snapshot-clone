@@ -61,7 +61,7 @@ function Preview() {
                       // Profile pic
                       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
                   });
-                  history.replace('/chats');
+                  history.replace('/Chats');
               });
         })
     }
