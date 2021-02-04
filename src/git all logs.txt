@@ -46,5 +46,8 @@ will use this image for all the componebt ogf our project
 
 # install uuid module for user unique user identity 
 
+# make chat cection where we render all the files after send section and where all users chats reside
+
+# do some csss Changes in Css file of Chats.css done for today : 4 feb 2021
 
 
