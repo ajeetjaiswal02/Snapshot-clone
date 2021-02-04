@@ -40,11 +40,21 @@
   padding-left: 8px;
 }
 
-.chat_posts {
+.chats_posts {
   box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.44);
   height: 359px;
   margin-top: -9px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: white;
+  overflow: scroll;
+}
+
+.chats_posts::-webkit-scrollbar {
+  display: none;
+}
+
+.chats_posts {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
