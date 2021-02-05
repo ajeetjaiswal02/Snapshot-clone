@@ -6,6 +6,7 @@ import ChatBubbleIcon from "@material-ui/icons/ChatBubble";
 import { db } from './firebase';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Chat from "./Chat";
 
 function Chats() {
 
