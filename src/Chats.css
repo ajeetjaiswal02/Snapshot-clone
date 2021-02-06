@@ -40,6 +40,16 @@
   padding-left: 8px;
 }
 
+.chats_searchIcon {
+  color: white;
+  font-size: 13px !important;
+}
+
+.chats_chaticon {
+  color: white;
+  font-size: 13px !important;
+}
+
 .chats_posts {
   box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.44);
   height: 359px;
@@ -57,4 +67,20 @@
 .chats_posts {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.chats_takePicIcon {
+  position: absolute;
+  background-color: white;
+  border-radius: 200px;
+  color: gray;
+  font-size: 40px !important;
+  cursor: pointer;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.chats_takePicIcon:hover {
+  opacity: 0.8;
 }
